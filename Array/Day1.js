@@ -41,6 +41,7 @@ async function secondLarge(arr) {
 }
 // secondLarge(Array1)
 
+//* ======================================================================================================== *//
 //! Q.2 sort array
 
 async function sortArray1(arr) {
@@ -79,6 +80,7 @@ async function insertionsort(arr) {
 }
 insertionsort(Array1);
 
+//* ======================================================================================================== *//
 //! Q.3 Linear Search
 function linearSearch(arr, target) {
   for (let i = 0; i < arr.length; i++) {
@@ -97,6 +99,7 @@ if (result === -1) {
   console.log(`Element found at index ${result}`);
 }
 
+//* ======================================================================================================== *//
 //! Q.4 Left Rotate an array by one place
 function leftRotate(arr) {
   let first = arr[0];
